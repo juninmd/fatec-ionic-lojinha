@@ -25,4 +25,8 @@ export class HomePage {
     this.navCtrl.push('DetailsProductPage', { product: product });
   }
 
+  contato() {
+    this.navCtrl.push('ContactPage');
+  }
+
 }

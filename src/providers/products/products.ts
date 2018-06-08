@@ -11,4 +11,8 @@ export class ProductsProvider {
     return this.http.get('http://localhost:8050/products/')
   }
 
+  put(body: any) {
+    return this.http.put('http://localhost:8050/message/', body)
+  }
+
 }
